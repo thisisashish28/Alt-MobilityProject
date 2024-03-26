@@ -1,0 +1,68 @@
+.product-grid {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+    grid-gap: 20px; /* Spacing between grid items */
+  }
+  
+  .product-item {
+    border: 1px solid #ccc; /* Add borders around each grid item */
+    padding: 20px; /* Add padding inside each grid item */
+  }
+  
+  .product-item img {
+    max-width: 100%; /* Ensure product images don't exceed their container */
+  }
+  
+  .product-item div {
+    text-align: center; /* Center align text content within grid items */
+  }
+  .button {
+    background-color: #5e83bb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  .search-bar {
+    width: 100%; /* Set width to 80% of its container */
+    max-width: 400px; /* Limit the maximum width to 400px */
+     /* Center the search bar horizontally */
+    padding: 12px 20px; /* Increase padding for better appearance */
+    border: 1px solid #ccc;
+    border-radius: 30px; /* Increase border radius for a rounder appearance */
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    display: flex;
+  }
+  
+  .search-bar:focus {
+    border-color: #4497c7;
+  }
+  .search-bar-container {
+    position: absolute; /* Position the container */
+    top: 50px; /* Adjust top position as needed */
+    left: 50%; /* Place the left side of the container at the horizontal center of the page */
+    transform: translateX(-50%); /* Center the container horizontally */
+    width: 80%; /* Set width to 80% of its container */
+    max-width: 400px; /* Limit the maximum width to 400px */
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px; /* Add margin for spacing */
+    color: #333; /* Set text color */
+    text-align: left; /* Center align text */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); /* Add text shadow for depth */
+  }
+  
+  
+  
+  
